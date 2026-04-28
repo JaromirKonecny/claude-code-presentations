@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "WebSearch",
+      "Bash(python helpers/create_chart.py --help)",
+      "Bash(python *)",
+      "Bash(node *)"
+    ]
+  }
+}
