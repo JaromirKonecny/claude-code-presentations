@@ -51,7 +51,16 @@ Nach dem Briefing: Erstelle den Projektordner automatisch:
 
 ```bash
 PROJECT="projekte/YYYY-MM-kurzname"
+# Falls Ordner schon existiert: Suffix anhängen (_v2, _v3, ...)
+if [ -d "$PROJECT" ]; then
+  i=2
+  while [ -d "${PROJECT}_v${i}" ]; do
+    i=$((i+1))
+  done
+  PROJECT="${PROJECT}_v${i}"
+fi
 mkdir -p "$PROJECT/research" "$PROJECT/output/charts" "$PROJECT/output/images"
+echo "Projektordner: $PROJECT"
 ```
 
 ---
