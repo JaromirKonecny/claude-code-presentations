@@ -2,6 +2,8 @@
 
 > Automatisierter Workflow zum Erstellen professioneller PowerPoint-Präsentationen mit Claude Code — inklusive Recherche, Diagrammen, Stockbildern und Icons.
 
+![Beispielfolie aus dem Workflow](beispiele/screenshot.jpg)
+
 ## Was ist das?
 
 Ein vollständiger Workflow, mit dem [Claude Code](https://claude.com/product/claude-code) auf Anweisung in natürlicher Sprache PowerPoint-Präsentationen erstellt:
@@ -39,8 +41,8 @@ Kurzfassung für erfahrene Nutzer:
 
 ```bash
 # 1. Repo klonen
-git clone https://github.com/DEIN-USER/presentation-workflow.git
-cd presentation-workflow
+git clone https://github.com/JaromirKonecny/claude-code-presentations.git
+cd claude-code-presentations
 
 # 2. JavaScript-Bibliotheken
 npm init -y
@@ -77,7 +79,7 @@ Die vollständigen Workflow-Anweisungen findest du in **[CLAUDE.md](CLAUDE.md)**
 ## Projektstruktur
 
 ```
-presentation-workflow/
+claude-code-presentation/
 ├── CLAUDE.md              ← Anweisungen für Claude Code
 ├── ANLEITUNG.md           ← Schritt-für-Schritt-Anleitung für Anfänger
 ├── README.md              ← Diese Datei
