@@ -2,8 +2,6 @@
 
 > Automatisierter Workflow zum Erstellen professioneller PowerPoint-Präsentationen mit Claude Code — inklusive Recherche, Diagrammen, Stockbildern und Icons.
 
-![Beispielfolie](beispiele/screenshot.jpg)
-
 ## Was ist das?
 
 Ein vollständiger Workflow, mit dem [Claude Code](https://claude.com/product/claude-code) auf Anweisung in natürlicher Sprache PowerPoint-Präsentationen erstellt:
