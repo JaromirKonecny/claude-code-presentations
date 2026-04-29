@@ -1,7 +1,7 @@
 {
-  "name": "presentation-workflow",
+  "name": "claude-code-presentations",
   "version": "1.0.0",
-  "description": "Ein automatisierter Workflow, mit dem Claude Code (Desktop App) professionelle PowerPoint-Präsentationen erstellt — inklusive Recherche, Diagramme und Stockbilder.",
+  "description": "PowerPoint presentation workflow for Claude Code — research, charts, stock images, and icons.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
